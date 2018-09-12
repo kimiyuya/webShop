@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="WebShop:Web exploded">
+    <output-path>$PROJECT_DIR$/../../../Jave resource/apache-tomcat-9.0.8/webapps/WebShop</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="WebShop/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="WebShop" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="gson-2.2.4" />
+          <element id="library" level="project" name="commons-beanutils-1.8.3" />
+          <element id="library" level="project" name="commons-logging-1.1.1" />
+          <element id="library" level="project" name="commons-dbcp-1.4" />
+          <element id="library" level="project" name="commons-dbutils-1.6" />
+          <element id="library" level="project" name="commons-pool-1.5.6" />
+          <element id="library" level="project" name="jstl" />
+          <element id="library" level="project" name="standard" />
+          <element id="library" level="project" name="mail" />
+          <element id="library" level="project" name="ojdbc6" />
+          <element id="library" level="project" name="commons-fileupload-1.2.1" />
+          <element id="library" level="project" name="mysql-connector-java-5.0.4-bin" />
+          <element id="library" level="project" name="commons-pool2-2.3" />
+          <element id="library" level="project" name="jedis-2.7.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
